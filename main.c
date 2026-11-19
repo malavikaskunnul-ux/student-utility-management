@@ -42,11 +42,11 @@ int main()
                 break;
 
             case 5:
-                printf("\nThank You!\n");
+                printf("Exiting...\n");
                 break;
 
             default:
-                printf("\nInvalid Choice!\n");
+                printf("Invalid choice!\n");
         }
 
     } while(choice != 5);
