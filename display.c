@@ -21,6 +21,7 @@ void displayStudent()
     {
         printf("Subject %d: %d\n", i + 1, marks[i]);
     }
+    checkResult();
 
     printf("Average: %.2f\n", average);
 }
