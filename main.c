@@ -4,7 +4,7 @@
 char name[50];
 int rollNo;
 int marks[3];
-float average = 0;
+float average = 0 ;
 int studentAdded = 0;
 
 int main()
@@ -42,11 +42,11 @@ int main()
                 break;
 
             case 5:
-                printf("Exiting...\n");
+                printf("\nThank You!\n");
                 break;
 
             default:
-                printf("Invalid choice!\n");
+                printf("\nInvalid Choice!\n");
         }
 
     } while(choice != 5);

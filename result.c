@@ -12,17 +12,25 @@ void checkResult()
     int pass = 1;
     int i;
 
-    for( i = 0; i < 3; i++)
+    printf("\n--- Subject-wise Result ---\n");
+
+    for(i = 0; i < 3; i++)
     {
+        printf("Subject %d: %d - ", i + 1, marks[i]);
+
         if(marks[i] < 35)
         {
+            printf("FAIL\n");
             pass = 0;
-            break;
+        }
+        else
+        {
+            printf("PASS\n");
         }
     }
 
     if(pass)
-        printf("\nResult: PASS\n");
+        printf("\nOverall Result: PASS\n");
     else
-        printf("\nResult: FAIL\n");
+        printf("\nOverall Result: FAIL\n");
 }
